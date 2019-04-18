@@ -44,8 +44,6 @@
               <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6850#6851#0" expanded="true" />
-                <element signature="e#6875#6876#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,8 +135,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,16 +193,18 @@
       <workItem from="1555609590283" duration="5011000" />
       <workItem from="1555614833661" duration="147000" />
       <workItem from="1555615478672" duration="504000" />
+      <workItem from="1555628313287" duration="618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5662000" />
+    <option name="totallyTimeSpent" value="6280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2371134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24054983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -213,7 +213,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48728523" weight="0.3084223" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48659793" weight="0.3084223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -222,7 +222,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5127148" side_tool="true" visible="true" weight="0.3084223" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51340204" side_tool="true" visible="true" weight="0.3084223" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4838488" weight="0.32858837" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -243,6 +243,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amazonaws/demos/polly/enumVoices.java" />
+    <entry file="file://$PROJECT_DIR$/rootkey.csv" />
     <entry file="file://$PROJECT_DIR$/src/com/amazonaws/demos/polly/AmazonPolly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -258,17 +259,6 @@
         <state relative-caret-position="459">
           <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rootkey.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AmazonPolly.iml">
