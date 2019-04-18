@@ -1,3 +1,4 @@
 # Text_to_Speech
 
-For non-developers wishing to use the Amazon Polly API for simple text-to-speech.
+Amazon Polly does not have a user-friendly software for its API.
+This simple interface fills the gap for non-developers.
