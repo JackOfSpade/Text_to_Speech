@@ -26,7 +26,7 @@ class CustomDialog extends JDialog
     private JOptionPane optionPane;
     private String enterString = "Enter";
     private String removeLineBreaksString = "Remove Line Breaks";
-    String[] voices = {"Ivy", "Joanna", "Kendra", "Kimberly", "Salli", "Joey", "Justin", "Matthew"};
+    String[] voices = {"Matthew", "Ivy", "Joanna", "Kendra", "Kimberly", "Salli", "Joey", "Justin"};
     JComboBox voiceList = new JComboBox(voices);
     Scrollbar speedBar = new Scrollbar(Scrollbar.HORIZONTAL, 0, 10, 0, 100);
 
@@ -36,7 +36,7 @@ class CustomDialog extends JDialog
     public CustomDialog(Frame aFrame, String aWord)
     {
         super(aFrame, true);
-        setTitle("Amazon Polly");
+        setTitle("Text-to-Speech");
 
         textArea = new JTextArea(25, 50);
         textArea.setLineWrap(true);
@@ -48,6 +48,8 @@ class CustomDialog extends JDialog
         //Create an array of the text and components to be displayed.
         String msgString1 = "Enter Text:";
         String msgString2 = "Speech Speed (%):";
+        speedBar.setBackground(Color.black);
+        speedBar.setValue(50);
         Object[] array = {msgString1, scrollArea, msgString2, speedBar, voiceList};
 
         //Create an array specifying the number of dialog buttons
