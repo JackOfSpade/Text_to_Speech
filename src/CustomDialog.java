@@ -45,10 +45,11 @@ class CustomDialog extends JDialog
 
         //Create an array of the text and components to be displayed.
         String msgString1 = "Enter Text:";
-        String msgString2 = "Speech Speed (%):";
+        String msgString2 = "Speech Speed (0% - 200%):";
         speedBar.setBackground(Color.black);
         speedBar.setValue(100);
-        Object[] array = {msgString1, scrollArea, msgString2, speedBar, voiceList};
+        String msgString3 = "Voice:";
+        Object[] array = {msgString1, scrollArea, msgString2, speedBar, msgString3, voiceList};
 
         //Create an array specifying the number of dialog buttons
         //and their text.
