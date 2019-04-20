@@ -26,9 +26,9 @@ class CustomDialog extends JDialog
     private JOptionPane optionPane;
     private String enterString = "Enter";
     private String removeLineBreaksString = "Remove Line Breaks";
-    String[] voices = {"Matthew", "Ivy", "Joanna", "Kendra", "Kimberly", "Salli", "Joey", "Justin"};
+    String[] voices = {"Matthew", "Ivy", "Joanna", "Kendra", "Kimberly", "Salli", "Joey", "Justin", "Zhiyu"};
     JComboBox voiceList = new JComboBox(voices);
-    Scrollbar speedBar = new Scrollbar(Scrollbar.HORIZONTAL, 0, 10, 0, 100);
+    Scrollbar speedBar = new Scrollbar(Scrollbar.HORIZONTAL, 0, 10, 0, 200);
 
     /**
      * Creates the reusable dialog.
@@ -49,7 +49,7 @@ class CustomDialog extends JDialog
         String msgString1 = "Enter Text:";
         String msgString2 = "Speech Speed (%):";
         speedBar.setBackground(Color.black);
-        speedBar.setValue(50);
+        speedBar.setValue(100);
         Object[] array = {msgString1, scrollArea, msgString2, speedBar, voiceList};
 
         //Create an array specifying the number of dialog buttons
