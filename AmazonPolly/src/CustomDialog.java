@@ -1,5 +1,3 @@
-package com.amazonaws.demos.polly;
-
 import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.auth.profile.ProfileCredentialsProvider;
 import com.amazonaws.regions.Region;
@@ -38,7 +36,7 @@ class CustomDialog extends JDialog
         super(aFrame, true);
         setTitle("Text-to-Speech");
 
-        textArea = new JTextArea(25, 50);
+        textArea = new JTextArea(10, 30);
         textArea.setLineWrap(true);
         textArea.setWrapStyleWord(true);
         textArea.setFont(textArea.getFont().deriveFont(16f));
@@ -147,9 +145,9 @@ class CustomDialog extends JDialog
 
                 AWSCredentialsProvider credentialsProvider = new ProfileCredentialsProvider();
 
-
                 //create an MP3 player
                 AdvancedPlayer player = null;
+                
                 try
                 {
                     player = new AdvancedPlayer(speechStream, javazoom.jl.player.FactoryRegistry.systemRegistry().createAudioDevice());

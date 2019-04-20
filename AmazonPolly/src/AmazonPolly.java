@@ -1,12 +1,9 @@
-package com.amazonaws.demos.polly;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
 import com.amazonaws.ClientConfiguration;
 import com.amazonaws.auth.BasicAWSCredentials;
-import com.amazonaws.auth.DefaultAWSCredentialsProviderChain;
 import com.amazonaws.regions.Region;
 import com.amazonaws.services.polly.AmazonPollyClient;
 import com.amazonaws.services.polly.model.*;

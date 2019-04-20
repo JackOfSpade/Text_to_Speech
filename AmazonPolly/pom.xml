@@ -36,7 +36,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.amazonaws.demos.polly.AmazonPolly</mainClass>
+                    <mainClass>AmazonPolly</mainClass>
                 </configuration>
             </plugin>
         </plugins>

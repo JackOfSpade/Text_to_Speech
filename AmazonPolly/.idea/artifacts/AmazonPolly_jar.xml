@@ -2,7 +2,7 @@
   <artifact type="jar" name="AmazonPolly:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/AmazonPolly_jar</output-path>
     <root id="archive" name="AmazonPolly.jar">
-      <element id="module-output" name="AmazonPolly" />
+      <element id="module-output" name="TextToSpeech" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/googlecode/soundlibs/jlayer/1.0.1.4/jlayer-1.0.1.4.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar" path-in-jar="/" />
