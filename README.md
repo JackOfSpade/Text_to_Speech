@@ -7,4 +7,4 @@ This simple interface fills the gap for non-developers wishing to use its featur
 ![alt text](https://i.imgur.com/rvJZdBc.png)
 
 
-To use: download and run TextToSpeech.jar in ...\out\artifacts folder.
+To use: download and run TextToSpeech.jar in the /out/artifacts folder.
