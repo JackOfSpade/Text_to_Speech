@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AmazonPolly.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="185">
+              <caret line="22" column="131" selection-start-line="22" selection-start-column="131" selection-end-line="22" selection-end-column="131" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CustomDialog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+              <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,7 +73,6 @@
       <find>credentia</find>
       <find>credenti</find>
       <find>crede</find>
-      <find>key</find>
       <find>creden</find>
       <find>ClientConfiguration</find>
       <find>amazonpolly</find>
@@ -83,6 +82,7 @@
       <find>ma</find>
       <find>amazonp</find>
       <find>voices</find>
+      <find>key</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/com/amazonaws/demos/polly/AmazonPolly.java" />
         <option value="$PROJECT_DIR$/src/com/amazonaws/demos/polly/CustomDialog.java" />
         <option value="$PROJECT_DIR$/src/CustomDialog.java" />
+        <option value="$PROJECT_DIR$/src/AmazonPolly.java" />
       </list>
     </option>
   </component>
@@ -120,6 +121,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,7 +133,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,16 +197,17 @@
       <workItem from="1555728478442" duration="185000" />
       <workItem from="1555728756400" duration="196000" />
       <workItem from="1555729579848" duration="299000" />
+      <workItem from="1559954261728" duration="1073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9099000" />
+    <option name="totallyTimeSpent" value="10172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2611684" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2646048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -223,7 +225,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5305842" side_tool="true" visible="true" weight="0.3084223" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5305842" side_tool="true" weight="0.3084223" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4694158" weight="0.32858837" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -245,16 +247,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amazonaws/demos/polly/enumVoices.java" />
     <entry file="file://$PROJECT_DIR$/rootkey.csv" />
-    <entry file="file://$PROJECT_DIR$/src/AmazonPolly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -268,7 +260,17 @@
     <entry file="file://$PROJECT_DIR$/src/CustomDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AmazonPolly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="22" column="131" selection-start-line="22" selection-start-column="131" selection-end-line="22" selection-end-column="131" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
