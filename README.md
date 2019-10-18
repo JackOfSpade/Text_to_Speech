@@ -1,7 +1,5 @@
-# Text_to_Speech
-
-Amazon Polly does not have a user-friendly software for its API.
-
-This simple interface fills the gap for non-developers wishing to use its features.
-
 ![alt text](https://i.imgur.com/rvJZdBc.png)
+
+
+This interface bridges the gap between common users and the Amazon Polly API (featuring the most natural sounding voices available).
+Amazon Polly currently does not provide a user-friendly software for its API, 
