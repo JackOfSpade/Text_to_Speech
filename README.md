@@ -1,4 +1,4 @@
-![alt text](https://i.imgur.com/rvJZdBc.png)
+![alt text](https://i.imgur.com/zoRFvVH.jpg)
 
 This interface bridges the gap between common users and the Amazon Polly API (featuring the most natural sounding voices available).
 
