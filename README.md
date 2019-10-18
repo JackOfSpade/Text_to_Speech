@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/zoRFvVH.jpg" alt="alt text" width="850" height="381">
 
-![alt text](https://i.imgur.com/FOpdtCf.png)
+![alt text](https://i.imgur.com/AizqmRg.png)
 
 This interface bridges the gap between common users and the Amazon Polly API (featuring the most natural sounding voices available).
 
