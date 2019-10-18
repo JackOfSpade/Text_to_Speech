@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/zoRFvVH.jpg" alt="alt text" width="1600" height="662">
+<img src="https://i.imgur.com/zoRFvVH.jpg" alt="alt text" width="1000" height="531">
 
 ![alt text](https://i.imgur.com/FOpdtCf.png)
 
