@@ -6,4 +6,4 @@ This interface bridges the gap between common users and the Amazon Polly API (fe
 
 Amazon Polly currently does not provide a user-friendly software for its API.
 
-**To Use:** download and run "TextToSpeech.jar"
+**Installation:** download and run "TextToSpeech.jar"
