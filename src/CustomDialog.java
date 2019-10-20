@@ -127,7 +127,7 @@ class CustomDialog extends JDialog
                 AmazonPolly.setText(textArea.getText());
                 AmazonPolly.setSpeed(Integer.toString(speedBar.getValue()));
 
-                if(AmazonPolly.getSpeed().indexOf('%') == -1)
+                if (AmazonPolly.getSpeed().indexOf('%') == -1)
                 {
                     AmazonPolly.setSpeed(AmazonPolly.getSpeed() + "%");
                 }
@@ -136,7 +136,7 @@ class CustomDialog extends JDialog
                 try
                 {
 
-                    speechStream = amazonPolly.synthesize( "<speak><prosody rate='" + AmazonPolly.getSpeed() + "'>" + AmazonPolly.getText() + "</prosody></speak>", OutputFormat.Mp3);
+                    speechStream = amazonPolly.synthesize("<speak><prosody rate='" + AmazonPolly.getSpeed() + "'>" + AmazonPolly.getText() + "</prosody></speak>", OutputFormat.Mp3);
                 }
                 catch (IOException e1)
                 {
@@ -149,49 +149,53 @@ class CustomDialog extends JDialog
                 //create an MP3 player
                 AdvancedPlayer player = null;
 
-                try
+                if (speechStream != null)
                 {
-                    player = new AdvancedPlayer(speechStream, javazoom.jl.player.FactoryRegistry.systemRegistry().createAudioDevice());
-                }
-                catch (JavaLayerException e1)
-                {
-                    e1.printStackTrace();
-                }
-
-                player.setPlayBackListener(new PlaybackListener()
-                {
-                    @Override
-                    public void playbackStarted(PlaybackEvent evt)
+                    try
                     {
-                        System.out.println("---------------------------------------------------------\n");
-                        System.out.println(AmazonPolly.getText());
+                        player = new AdvancedPlayer(speechStream, javazoom.jl.player.FactoryRegistry.systemRegistry().createAudioDevice());
+                    }
+                    catch (JavaLayerException e1)
+                    {
+                        e1.printStackTrace();
                     }
 
-                    @Override
-                    public void playbackFinished(PlaybackEvent evt)
+                    player.setPlayBackListener(new PlaybackListener()
                     {
-                        System.out.println("\n---------------------------------------------------------\n");
+                        // For testing purposes only.
+                        @Override
+                        public void playbackStarted(PlaybackEvent evt)
+                        {
+                            System.out.println("---------------------------------------------------------\n");
+                            System.out.println(AmazonPolly.getText());
+                        }
+
+                        @Override
+                        public void playbackFinished(PlaybackEvent evt)
+                        {
+                            System.out.println("\n---------------------------------------------------------\n");
+                        }
+                    });
+
+
+                    // play it!
+                    try
+                    {
+                        player.play();
                     }
-                });
-
-
-                // play it!
-                try
-                {
-                    player.play();
+                    catch (JavaLayerException e1)
+                    {
+                        e1.printStackTrace();
+                    }
                 }
-                catch (JavaLayerException e1)
+                else if (value.equals(removeLineBreaksString))
                 {
-                    e1.printStackTrace();
+                    AmazonPolly.setText(textArea.getText());
+                    textArea.setText(AmazonPolly.getText().replaceAll("\\r\\n|\\r|\\n", " "));
                 }
-            }
-            else if(value.equals(removeLineBreaksString))
-            {
-                AmazonPolly.setText(textArea.getText());
-                textArea.setText(AmazonPolly.getText().replaceAll("\\r\\n|\\r|\\n", " "));
-            }
 
-            textArea.requestFocusInWindow();
+                textArea.requestFocusInWindow();
+            }
         }
     }
 

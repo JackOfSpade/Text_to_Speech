@@ -19,8 +19,7 @@ public class AmazonPolly
 
     public AmazonPolly(Region region, String selectedVoice)
     {
-        //BasicAWSCredentials credentials = new BasicAWSCredentials("Access Key ID", "Secret Key ID");
-        BasicAWSCredentials credentials = new BasicAWSCredentials("Your_Access_Key_ID", "Your_Secret_Key_ID");
+        BasicAWSCredentials credentials = new BasicAWSCredentials("Your_Access_Key_ID", "Your_Secret_Key");
 
         // create an Amazon Polly client in a specific region
         this.amazonPollyClient = new AmazonPollyClient(credentials, new ClientConfiguration());
