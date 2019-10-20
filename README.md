@@ -10,11 +10,13 @@ Amazon Polly currently does not provide a user-friendly software for its API.
 # To Use
 Download and run `TextToSpeech.jar`
 
-# For Developers
-Due to security reasons, the API key for Amazon Polly used in the compiled `TextToSpeech.jar` is not included in the source code. You must change the following line in `AmazonPolly.java` before compiling:
+# For Developers:
+Due to security reasons, the API key for Amazon Web Services (AWS) is not included in the source code. You must create a `config.ini` file at the root level in the following format:
 
-```java 
-BasicAWSCredentials credentials = new BasicAWSCredentials("Your_Access_Key_ID", "Your_Secret_Key");
+```ini
+[accuweather_api_keys]
+key=your_key_here
 ```
 
-You can get a free AccuWeather API Key here: https://developer.accuweather.com/packages
+You can get a free AWS API Key here: https://aws.amazon.com/console/
+
