@@ -17,4 +17,4 @@ Due to security reasons, the API key for Amazon Polly used in the compiled `Text
 BasicAWSCredentials credentials = new BasicAWSCredentials("Your_Access_Key_ID", "Your_Secret_Key");
 ```
 
-You can get a free AWS API Key here: https://aws.amazon.com/free/?sc_ichannel=ha&sc_icampaign=signin_prospects&sc_isegment=en&sc_iplace=sign-in&sc_icontent=freetier&sc_segment=-1&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc
+You can get a free AWS API Key here: https://aws.amazon.com/free/
