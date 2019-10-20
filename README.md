@@ -17,4 +17,4 @@ Due to security reasons, the API key for Amazon Polly used in the compiled `Text
 BasicAWSCredentials credentials = new BasicAWSCredentials("Your_Access_Key_ID", "Your_Secret_Key");
 ```
 
-You can get a free AccuWeather API Key here: https://aws.amazon.com/console/
+You can get a free AWS API Key here: https://aws.amazon.com/console/
