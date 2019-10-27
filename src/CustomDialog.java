@@ -8,12 +8,16 @@ import javazoom.jl.player.advanced.AdvancedPlayer;
 import javazoom.jl.player.advanced.PlaybackEvent;
 import javazoom.jl.player.advanced.PlaybackListener;
 
+import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
-import java.beans.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ComponentAdapter;
+import java.awt.event.ComponentEvent;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 import java.io.IOException;
 import java.io.InputStream;
-import javax.swing.*;
 
 class CustomDialog extends JDialog
         implements ActionListener,
@@ -160,25 +164,24 @@ class CustomDialog extends JDialog
                         e1.printStackTrace();
                     }
 
-                    player.setPlayBackListener(new PlaybackListener()
-                    {
-                        // For testing purposes only.
-                        @Override
-                        public void playbackStarted(PlaybackEvent evt)
-                        {
-                            System.out.println("---------------------------------------------------------\n");
-                            System.out.println(AmazonPolly.getText());
-                        }
+                    // For testing purposes only.
+//                    player.setPlayBackListener(new PlaybackListener()
+//                    {
+//                        @Override
+//                        public void playbackStarted(PlaybackEvent evt)
+//                        {
+//                            System.out.println("---------------------------------------------------------\n");
+//                            System.out.println(AmazonPolly.getText());
+//                        }
+//
+//                        @Override
+//                        public void playbackFinished(PlaybackEvent evt)
+//                        {
+//                            System.out.println("\n---------------------------------------------------------\n");
+//                        }
+//                    });
 
-                        @Override
-                        public void playbackFinished(PlaybackEvent evt)
-                        {
-                            System.out.println("\n---------------------------------------------------------\n");
-                        }
-                    });
-
-
-                    // play it!
+                    // Play it!
                     try
                     {
                         player.play();
