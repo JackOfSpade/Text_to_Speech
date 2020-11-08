@@ -3,9 +3,6 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-polly/1.11.535/aws-java-sdk-polly-1.11.535.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-polly/1.11.535/aws-java-sdk-polly-1.11.535-javadoc.jar!/" />
-    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-polly/1.11.535/aws-java-sdk-polly-1.11.535-sources.jar!/" />
     </SOURCES>

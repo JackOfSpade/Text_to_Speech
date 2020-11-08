@@ -17,7 +17,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/CustomDialog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CustomDialog$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/CustomDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CustomDialog.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="96b0a9d4-9b9a-43f2-aa96-91d7ce4c3cc9" />
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -45,7 +45,12 @@
   </component>
   <component name="ProjectId" id="1SODDXn12wgeGYh4lq48m7TPvai" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -54,18 +59,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20124482" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="CustomDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -81,12 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.CustomDialog" />
-      </list>
-    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -113,23 +102,29 @@
       <workItem from="1571594340945" duration="2553000" />
       <workItem from="1572201780212" duration="882000" />
       <workItem from="1572202962185" duration="819000" />
+      <workItem from="1604164519664" duration="804000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="829" y="333" key="#Configure_Path_Variables" timestamp="1604164532093">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="829" y="333" key="#Configure_Path_Variables/0.0.1500.960@0.0.1500.960" timestamp="1604164532093" />
   </component>
 </project>
